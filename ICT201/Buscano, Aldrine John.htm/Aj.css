@@ -1,0 +1,101 @@
+body {
+    height: 1100px;
+    background-color: hotpink;
+    background-image: linear-gradient( pink, white);
+}
+
+.name {
+    color: hotpink;
+    font-family: Verdana;
+    font-size: 70px;
+    padding: 10px 0px;
+}
+
+.bna {
+    color: hotpink;
+    font-family: arial;
+    font-size: 48px;
+}
+
+div.moto {
+    align-self: center;
+    border: solid 5px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mymoto {
+    font-size: 30px;
+    font-family: Verdana;
+    color: black;
+}
+
+img {
+    float: left;
+    padding: 0px 20px;
+}
+
+a.link1 {
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+a:link.link1, a:visited.link1 {
+    color: hotpink;
+}
+
+a:hover.link1, a:active.link1 {
+    color: hotpink;
+}
+
+a.link2 {
+    color: hotpink;
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+a:link.link2, a:visited.link2 {
+    color: black;
+}
+
+.box1 {
+    float: left;
+    padding: 50px 4px;
+    width: 40%;
+    height: 400px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 45px;
+    margin-left: 155px;
+}
+
+div.entrance {
+    color: hotpink;
+    height: 25%;
+}
+
+li {
+    display: block;
+}
+
+a:link.ref, a:visited.ref {
+    background-color: antiquewhite;
+    color: black;
+    padding: 14px 14px;
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid;
+}
+
+a:hover.ref, a:active.ref {
+    background-color: white;
+}

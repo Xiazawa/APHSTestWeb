@@ -1,0 +1,100 @@
+body {
+  
+    background-color: skyblue;
+   
+}
+
+img {
+    float: left;
+    padding: 10px 90px;
+   
+}
+/*------------------------------*/
+.nameref {
+    font-family: Arial;
+    font-size: 45px;
+    color: forestgreen;
+    padding: 8px 0px;
+}
+/*------------------------------*/
+a.aphsref {
+    font-family: Arial;
+    font-size: 35px;
+    color: forestgreen;
+    padding: 8px 0px;
+}
+/*------------------------------*/
+.secref {
+    font-family: Arial;
+    font-size: 40px;
+    color: forestgreen;
+    padding: 8px 0px;
+}
+/*------------------------------*/
+.birthaddref {
+    font-family: Arial;
+    font-size: 30px;
+    color: forestgreen;
+    padding: 8px 0px;
+}
+/*------------------------------*/
+div.mottoref {
+    border: 8px solid blue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-self: center;
+    margin-left: 85px;
+    margin-right: 35%;
+}
+/*------------------------------*/
+.mottotxtref {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 8px 0px;
+}
+/*------------------------------*/
+.splitref {
+    float: left;
+    padding: 10px 40px;
+    width: 20%;
+    height: 150px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 155px;
+    font-family: Arial;
+    font-size: 20px;
+    color: forestgreen;
+}
+
+div.linksref {
+    font-family: Arial;
+    font-size: 30px;
+    color: bisque;
+    padding: 8px 0px;
+}
+
+li {
+    display: block;
+}
+
+a:link.ref, a:visited.ref {
+    background-color: deepskyblue;
+    color: navajowhite;
+    padding: 6px 2px;
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: Consolas;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid;
+}
+
+a:hover.ref, a:active.ref {
+    color: rebeccapurple;
+}

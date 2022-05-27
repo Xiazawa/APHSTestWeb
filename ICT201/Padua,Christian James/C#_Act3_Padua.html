@@ -1,0 +1,145 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+    <title>Activity no. 3</title>
+</head>
+<body>
+    <li><a class="ref" style="float:right"href="javascript:history.back()"><b>Back</b></a></li>
+    <p><img src="Padua.Jpeg" style="width:20%;height:360px;"><p class="name"><b>Padua, Christian James A.</b><br><a class="link1" href="https://www.facebook.com/christianjames.padua12/ " target="_blank">APHS</a> <a class="link2"> - ICT 201</a><p class="adress">January 12, 2004<br>No.71 Venus Compound, Brgy. San Isidro Angono, Rizal.</p>
+    <br>
+    <div class="moto">
+        <p class="mymoto"><b>My Motto:</b> “GAMERS DONT DIE, THEY RESPAWN" </p>
+    </div>
+    <br>
+    <br>
+    <div class="box1">
+        <div class="entrance">
+            <b>My interest:</b>
+            <ul>
+                <li><a class="ref" href= https://www.youtube.com/channel/UC1O3zTSwPUWdQwixsUziB6Q target="_blank"><b>Youtube Channel</b></a></li>
+                <li><a class="ref" href="https://playvalorant.com/en-us/" target="_blank"><b>Valorant</b></a></li>
+                <li><a class="ref" href="https://yts.mx/" target="_blank"><b>YTS</b></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="box1">
+        <div class="entrance">
+            <b>My Music:</b>
+            <ul>
+                <li><a class="ref" href="https://youtu.be/zQIu1V1ZzC4 target="_blank"><b>Tahanan - Adie </b></a></li>
+                <li><a class="ref" href= "https://youtu.be/RkX3iiI317k"><b>Habang Buhay - Zack Tabudlo</b></a></li>
+                <li><a class="ref" href="https://youtu.be/pabX-IkXlE0"><b>Got Me Tangled - Arthur Nery</b></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+CSS
+
+body {
+    height: 1100px;
+    background-color: rgb(142, 224, 235);
+    background-image: linear-gradient(rgb(37, 57, 126), dimgrey);
+}
+
+.name {
+    color: mistyrose;
+    font-family: times new roman;
+    font-size: 70px;
+    padding: 10px 0px;
+}
+
+.adress {
+    color: mistyrose;
+    font-family: times new roman;
+    font-size: 38px;
+}
+
+div.moto {
+    align-self: center;
+    border: solid 5px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mymoto {
+    font-size: 32px;
+    font-family: times new roman;
+    color:mistyrose;
+}
+
+img {
+    float: left;
+    padding: 0px 20px;
+}
+
+a.link1 {
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+a:link.link1, a:visited.link1 {
+    color: mistyrose;
+}
+
+a:hover.link1, a:active.link1 {
+    color: grey;
+}
+
+a.link2 {
+    color: mistyrose;
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+a:link.link2, a:visited.link2 {
+    color: black;
+}
+
+.box1 {
+    float: left;
+    padding: 40px 4px;
+    width: 40%;
+    height: 400px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 45px;
+    margin-left: 155px;
+}
+
+div.entrance {
+    color: mistyrose;
+    height: 25%;
+}
+
+li {
+    display: block;
+}
+
+a:link.ref, a:visited.ref {
+    background-color: grey;
+    color: black;
+    padding: 11px 11px;
+    width: 550px;
+    height: 80px;
+    margin: 7px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid;
+}
+
+a:hover.ref, a:active.ref {
+    background-color: white;
+}
